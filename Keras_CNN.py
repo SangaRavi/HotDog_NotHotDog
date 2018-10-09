@@ -6,8 +6,8 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 
 
-train_data = 'D:\sample_datasets\HotorNot\Train'
-test_data = 'D:\sample_datasets\HotorNot\Test'
+train_data = './Train'
+test_data = './Test'
 
 def one_hot_label(img):
     label = img.split('.')[0]
