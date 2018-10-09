@@ -1,5 +1,5 @@
 # HotDog_NotHotDog
-Keras Image Classifier that classifies whether the provided image is hot dog or not
+CNN Image Classifier built with keras that classifies whether the provided image is hot dog or not
 
 Uses conventional Convolutional neural networks with 6 layers and with final fully connected layer of 2 outputs.
 Contains script to rename the training files and shuffling it, to use it for training.
