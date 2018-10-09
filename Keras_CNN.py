@@ -71,7 +71,7 @@ model.add(Flatten())
 model.add(Dense(512, activation='relu'))
 model.add(Dropout(rate=0.5))
 model.add(Dense(2, activation='softmax'))
-optimizer = Adam(lr=1e-3)
+optimizer = Adam(lr=1e-3) 
 
 
 model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])
